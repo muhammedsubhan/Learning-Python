@@ -88,24 +88,24 @@
 
 
 
-import os
+# import os
 
-dir_name = os.path.dirname(os.path.abspath(__file__))
-persistent_path = os.path.join(dir_name, "doc.txt")
+# dir_name = os.path.dirname(os.path.abspath(__file__))
+# persistent_path = os.path.join(dir_name, "doc.txt")
 
-print(persistent_path)
+# print(persistent_path)
 
-def read_file():
+# def read_file():
     
-    with open(persistent_path, "r") as file:
-       content  = file.read()
+#     with open(persistent_path, "r") as file:
+#        content  = file.read()
        
-       print(content)
+#        print(content)
        
        
-def write_file():
-    with open(persistent_path, "a") as file:
-        file.write("New line of code with functions")   
+# def write_file():
+#     with open(persistent_path, "a") as file:
+#         file.write("New line of code with functions")   
        
        
        
@@ -113,5 +113,48 @@ def write_file():
     
        
        
-read_file()
-write_file()
+# read_file()
+# write_file()
+
+
+# Functions can return something 
+
+
+
+# def sum_of_nums(a , b):
+    
+#     print(f"Adding {a} + {b}")
+    
+#     return a + b
+
+
+
+
+# sum_is = sum_of_nums(20, 10)
+
+# print(sum_is)
+
+
+
+# def break_words():
+    
+#     words = "hello guys how are you ?".split(" ")
+#     return words
+
+
+# words_break = break_words()
+
+
+# print(words_break)
+
+
+# words = "hello guys how are you ? are you fine ?"
+
+# def sort_words():
+#     return sorted(words)
+
+
+
+# words_sorted = sort_words()
+
+# print(words_sorted)

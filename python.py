@@ -281,3 +281,71 @@
 
 # for i in number:
 #     print(i)
+
+
+# things = [1,3,4,5,6,7]
+
+# print(things)
+
+
+# person_details = {
+#     "name":"Muhammad Subhan",
+#     "age":24,
+#     "work":"Software Developer"
+# }
+# person_details.pop("name")
+# print(person_details)
+
+
+
+# Dictionary Examples
+
+
+# states = {
+#     "Oregon":"OR",
+#     "Florida":"FL",
+#     "California":"CA",
+#     "New York":"NY",
+#     "Michigan":"MI",
+# }
+
+# cities = {
+#     "CA":"San Francisco",
+#     "MI":"Detroit",
+#     "FL":"Jacksonville"
+# }
+
+
+# can add like this in dict
+
+# cities["NY"] = "New York"
+# cities["OR"] = "Portland"
+
+# print("-" * 10)
+
+# print("NY state has : ",cities["NY"])
+# print("OR state has : ",cities["OR"])
+
+# print("-" * 10)
+
+# print("Michigan's abbreviation is : ", states["Michigan"])
+# print("Florida's abbreviation is : ", states["Florida"])
+
+# print("-" * 10)
+
+# print("Michigan has", cities[states["Michigan"]])
+# print("Florida has", cities[states["Florida"]])
+
+# print("-" * 10)
+
+# for state in states.items():
+#     print(state)
+    
+    
+# state = states.get("New York")
+
+# if state:
+#     print("hi im from texas")
+    
+# else:
+#     print("sorry texas is not here")

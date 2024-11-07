@@ -258,3 +258,26 @@
 
 # for e in elements:
 #     print(e)
+
+
+
+# i=0
+# number = []
+
+
+# while i<10:
+#     number.append(i)
+#     print(number)
+#     i=i+1
+
+
+# for num in number:
+#     print(num)
+
+
+# number = [1,2,3,4,5]
+
+# number.insert(5,10)
+
+# for i in number:
+#     print(i)

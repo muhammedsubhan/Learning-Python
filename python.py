@@ -349,3 +349,21 @@
     
 # else:
 #     print("sorry texas is not here")
+
+
+# Classes 
+
+class Student:
+    
+    
+    def __init__(self, name):
+        self.name = name
+
+
+    def print_name(self):
+        print(f"my name is {self.name}")
+        
+        
+        
+student1 = Student("subhan") 
+student1.print_name()

@@ -353,17 +353,20 @@
 
 # Classes 
 
-class Student:
+# class Student:
     
     
-    def __init__(self, name):
-        self.name = name
+#     def __init__(self, name,age,work):
+        
+#         self.name = name
+#         self.age = age
+#         self.work = work
 
 
-    def print_name(self):
-        print(f"my name is {self.name}")
+#     def print_name(self):
+#         print(f"my name is {self.name} and my i m {self.age} years old and i am a {self.work}")
         
         
         
-student1 = Student("subhan") 
-student1.print_name()
+# student1 = Student("subhan", 23,"software person") 
+# student1.print_name()

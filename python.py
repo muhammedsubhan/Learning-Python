@@ -370,3 +370,47 @@
         
 # student1 = Student("subhan", 23,"software person") 
 # student1.print_name()
+
+
+# define class in python
+
+
+# class Employee:
+    
+#     # constructor
+    
+#     def __init__(self,*employee):
+#         self.employee = employee
+       
+      
+    
+#     def print_output(self):
+#         for name, age in self.employee:
+            
+#            print(f"Name: {name} \n Age: {age}")
+        
+
+# employee = Employee(("Muhammad Subhan", 23), ("Eren Jeager", 20))
+# employee.print_output()
+
+
+
+
+# class Employee:
+    
+#     # constructor
+    
+#     def __init__(self,**employee):
+#         self.employee = employee
+       
+      
+    
+#     def print_output(self):
+#         for name, age in self.employee.items():
+            
+#            print(f"Name: {name} \n Age: {age}")
+           
+        
+
+# employee = Employee(Muhammad_Subhan= 23, Eren_Jeager=20)
+# employee.print_output()

@@ -414,3 +414,28 @@
 
 # employee = Employee(Muhammad_Subhan= 23, Eren_Jeager=20)
 # employee.print_output()
+
+
+
+# class person:
+  
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+        
+
+# class Employee(person):
+    
+    
+#     def __init__(self, name,age,emp_id):
+#            # Call the constructor of the parent class (Person)
+#         super().__init__(name, age)
+#         self.emp_id = emp_id
+        
+#     def display_info(self):
+#         print(f"Name: {self.name}, Age: {self.age}, Employee ID: {self.emp_id}")
+        
+        
+        
+# emp = Employee("Muhammad Subhan", 23, "EP123")
+# emp.display_info()
